@@ -1,6 +1,9 @@
 # Ex-4-LETTER-FOLLOWED-BY-ANY-NUMBER-OF-LETTERS-OR-DIGITS-USING-YACC
 RECOGNITION OF A VALID VARIABLE WHICH STARTS WITH A LETTER FOLLOWED BY ANY NUMBER OF LETTERS OR DIGITS USING YACC
-#
+
+
+# Date:12.11.25
+
 # Aim:
 To write a YACC program to recognize a valid variable which starts with a letter followed by any number of letters or digits.
 # ALGORITHM
@@ -66,8 +69,9 @@ void yyerror(const char *msg) {
     printf("Invalid variable name\n");
 }
 ```
+
 # Output
-<img width="1628" height="1017" alt="Screenshot 2025-10-23 083429" src="https://github.com/user-attachments/assets/f900feaa-94f6-4835-82bf-37ff43bc35b2" />
+<img width="1453" height="822" alt="Screenshot (148)" src="https://github.com/user-attachments/assets/94a26d44-c387-4ff3-9e23-77b23b471d7e" />
 
 # Result
 A YACC program to recognize a valid variable which starts with a letter followed by any number of letters or digits is executed successfully and the output is verified.
